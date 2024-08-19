@@ -27,6 +27,13 @@
   height: 350px;
   overflow: hidden;
   display: flex;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.048); /* subtle shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px); /* hover lift */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* deeper shadow on hover */
 }
 
 .cardImage{
