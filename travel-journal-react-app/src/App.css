@@ -1,0 +1,61 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  
+}
+
+/* header */
+.header{
+  background-color: rgb(223, 85, 61);
+  color: white;
+  height: 80px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.globe{
+  height: 30px;
+  padding-right: 5px;
+}
+
+
+/* card */
+.card{
+  height: 350px;
+  overflow: hidden;
+  display: flex;
+}
+
+.cardImage{
+  width: 250px;
+  height: 90%;
+  border-radius: 10px;
+  margin: 15px;
+  box-sizing: border-box;
+}
+
+.card--txt{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card--location{
+  display: flex;
+  gap: 8px;
+}
+
+.card h1 {
+  padding-bottom: 5px;
+}
+
+.card--date{
+  padding-bottom: 6px;
+}
+
+.pinImg{
+  height: 20px;
+}
